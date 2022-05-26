@@ -37,4 +37,8 @@ public class StepDefinition extends WebHooks {
 
     }
 
+   /* @И("^Проверяем на ошибку открытия страницы")
+    public void checkPageOpenedBug() {
+        LoginSteps.checkPageOpened();
+    }*/
 }

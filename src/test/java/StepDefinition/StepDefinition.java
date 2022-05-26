@@ -4,7 +4,10 @@ import Hooks.WebHooks;
 import PageObject.BaseSteps.BugReportPageSteps;
 import PageObject.BaseSteps.LoginSteps;
 import PageObject.BaseSteps.MainPageSteps;
+import com.codeborne.selenide.WebDriverRunner;
 import io.cucumber.java.ru.*;
+import io.qameta.allure.Step;
+
 import java.util.List;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -21,19 +24,20 @@ public class StepDefinition extends WebHooks {
            LoginSteps.enterPath.click();
            LoginSteps.authorizeCheck();
 
-    }
 
+    }
     @И("^Заполняем основную страницу")
     public void mainPageSteps() {
         MainPageSteps.hrefProject();
         MainPageSteps.numberOfTasks();
         MainPageSteps.testSeleniumTask();
+        WebDriverRunner.closeWebDriver();
     }
-
     @И("^Заполняем страницу баг репорта")
     public void bugReportSteps() {
         BugReportPageSteps.createBugReport();
         BugReportPageSteps.changeStatus();
+        WebDriverRunner.closeWebDriver();
 
     }
 

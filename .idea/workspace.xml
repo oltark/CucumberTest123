@@ -52,7 +52,27 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RunnerTest (2)">
+  <component name="RunManager" selected="JUnit.RunnerTest (3)">
+    <configuration name="Scenario: 02 Заполнение основной страницы" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/test.feature" />
+      <option name="GLUE" value="StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled8" />
+      <option name="NAME_FILTER" value="^02 Заполнение основной страницы$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^02 Заполнение основной страницы$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: 02 Заполнение основной страницы" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunnerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled8" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,16 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunnerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnerTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RunnerTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled8" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RunnerTest" />
@@ -100,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RunnerTest (3)" />
         <item itemvalue="JUnit.RunnerTest (2)" />
         <item itemvalue="JUnit.RunnerTest (1)" />
         <item itemvalue="JUnit.RunnerTest" />
-        <item itemvalue="JUnit.RunnerTest (5)" />
-        <item itemvalue="JUnit.RunnerTest (4)" />
+        <item itemvalue="Cucumber Java.Scenario: 02 Заполнение основной страницы" />
       </list>
     </recent_temporary>
   </component>

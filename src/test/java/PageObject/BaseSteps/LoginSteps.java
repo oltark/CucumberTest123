@@ -11,7 +11,7 @@ import static org.junit.Assert.assertTrue;
 public class LoginSteps extends LoginElements {
     public static void checkPageOpened(){
         String pageOpenedCheck = pageOpened.getText();
-        assertTrue(pageOpenedCheck.contains("Добро пожаловать в Jiraa"));
+        assertTrue(pageOpenedCheck.contains("Добро пожаловать в Jira"));
 
     }
 

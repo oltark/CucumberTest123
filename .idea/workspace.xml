@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a5300407-a6b3-4104-9612-5d37315f2e1e" name="Changes" comment="+allure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Hooks/WebHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hooks/WebHooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject/BaseSteps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunnerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/StepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/feature/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/test.feature" afterDir="false" />
     </list>
@@ -52,7 +50,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RunnerTest (2)">
+  <component name="RunManager" selected="JUnit.RunnerTest (5)">
     <configuration name="RunnerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled8" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,6 +61,15 @@
       </method>
     </configuration>
     <configuration name="RunnerTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunnerTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled8" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RunnerTest" />
@@ -89,22 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunnerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunnerTest (2)" />
-        <item itemvalue="JUnit.RunnerTest (1)" />
-        <item itemvalue="JUnit.RunnerTest" />
         <item itemvalue="JUnit.RunnerTest (5)" />
         <item itemvalue="JUnit.RunnerTest (4)" />
+        <item itemvalue="JUnit.RunnerTest (3)" />
+        <item itemvalue="JUnit.RunnerTest (2)" />
+        <item itemvalue="JUnit.RunnerTest (1)" />
       </list>
     </recent_temporary>
   </component>

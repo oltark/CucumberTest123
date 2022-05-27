@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/feature",
         plugin = {"pretty", "io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm", "json:target/cucumber.json"},
-        glue = {"StepDefinition", "WebHooks"},
+        glue = {"StepDefinition", "WebHooks", "AllureResponse"},
         tags = "@TEST"
 )
 class RunnerTest {

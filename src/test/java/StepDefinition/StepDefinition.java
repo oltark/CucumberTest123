@@ -12,7 +12,7 @@ import org.junit.jupiter.api.DisplayName;
 import java.util.List;
 import static com.codeborne.selenide.Selenide.*;
 
-@DisplayName("Тесты по баг трекеру Jira")
+@DisplayName("Тесты по баг-трекеру Jira")
 public class StepDefinition extends WebHooks {
 
     @Дано("^Авторизация")
